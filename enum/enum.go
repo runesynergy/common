@@ -17,7 +17,7 @@ type (
 	Options           = map[int]string
 	SkillRequirements = map[stat.Skill]stat.Level
 	WeaponAnimations  = map[combat.Action]*Animation
-	WeaponSounds      = map[combat.Action]string
+	WeaponSounds      = map[combat.Action]Sound
 )
 
 // External asset references
